@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 8rem;
+}
+input{
+    padding: 1rem;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+}

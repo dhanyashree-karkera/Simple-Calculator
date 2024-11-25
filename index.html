@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="number" id="first" name="first" step="any"/>
+    <select name="operator" id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="%">%</option>
+        <option value="/">/</option>
+    </select>
+    <input type="number" name="second" id="second" step="any"/>
+    <br>
+    <button onclick="cal()">Calculate</button>
+    <input type="text" id="res" name=""/>
+</body>
+<script src="script.js"></script>
+</html>
