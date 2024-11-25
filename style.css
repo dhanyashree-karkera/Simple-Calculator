@@ -6,9 +6,15 @@ body{
 }
 input{
     padding: 1rem;
+    border-radius: 1rem;
+    border: black solid;
 }
 button{
     background-color: black;
     color: white;
+    border-radius: 1rem;
+}
+#operator{
+    border: black solid;
     border-radius: 1rem;
 }
